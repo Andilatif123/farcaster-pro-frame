@@ -25,13 +25,10 @@
     <meta property="fc:frame:button:1" content="📢 Bagikan & Dukung $PRO!" />
     <meta property="fc:frame:button:1:action" content="link" />
     <!--
-        GANTI BAGIAN BERIKUT:
-        1. @USERNAME_ANDA_DI_FARCASTER dengan username Farcaster Anda (tanpa @, tapi %40 digunakan untuk URL encoding @).
-        2. https://URL_HOSTING_FRAME_ANDA/pro-frame.html dengan URL publik tempat Anda mengunggah file HTML ini.
-           Ini penting agar ketika dibagikan, frame ini juga ikut tersemat.
+        
     -->
     <meta property="fc:frame:button:1:target"
-          content="https://warpcast.com/~/compose?text=%24PRO%20GO%2010M%20MARKETCAP%20%F0%9F%9A%80%0A%0ADukung%20bersama%20%40USERNAME_ANDA_DI_FARCASTER!&embeds[]=https://URL_HOSTING_FRAME_ANDA/pro-frame.html" />
+          content="https://warpcast.com/~/compose?text=%24PRO%20GO%2010M%20MARKETCAP%20%F0%9F%9A%80%0A%0ADukung%20bersama%20%40tiaradwk!&embeds[]=https://https://farcaster-pro-frame.vercel.app//pro-frame.html" />
 
     <!-- (Opsional) fc:frame:post_url jika Anda ingin menangani POST request -->
     <!-- Untuk kasus ini, karena hanya ada tombol 'link', post_url bisa mengarah kembali ke frame ini sendiri atau endpoint yang mengembalikan frame ini. -->
@@ -61,8 +58,8 @@
             Bagikan Dukungan Manual
         </a>
         <p class="text-xs text-gray-500 mt-6">
-            Pastikan untuk mengganti placeholder <code>@USERNAME_ANDA_DI_FARCASTER</code> dan <code>https://URL_HOSTING_FRAME_ANDA/pro-frame.html</code> dalam kode sumber HTML.
+            Pastikan untuk mengganti placeholder <code>tiaradwk</code> dan <code>https://https://farcaster-pro-frame.vercel.app/pro-frame.html</code> dalam kode sumber HTML.
         </p>
     </div>
 </body>
-</html>
+</html>https://farcaster-pro-frame.vercel.app/
